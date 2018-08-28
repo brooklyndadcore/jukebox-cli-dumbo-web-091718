@@ -61,7 +61,7 @@ def run(my_songs)
   
     while answer != "exit"   
       puts "Please enter a command:"
-      answer = gets.chomp!
+      answer = gets.chomp
       list(my_songs) if answer == "list"
       play(my_songs) if answer == "play"
       help  if answer == "help"
