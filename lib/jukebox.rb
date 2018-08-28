@@ -60,11 +60,11 @@ def run(my_songs)
   answer = ""
   
     while answer != "exit"   
-        puts "Please enter a command:"
-        answer = gets.chomp!
-        list(my_songs) if answer == "list"
-        play(my_songs) if answer == "play"
-        help  if answer == "help"
+      puts "Please enter a command:"
+      answer = gets.chomp!
+      list(my_songs) if answer == "list"
+      play(my_songs) if answer == "play"
+      help  if answer == "help"
     end
     
   exit_jukebox   
